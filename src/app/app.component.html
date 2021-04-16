@@ -1,1 +1,10 @@
 <h2>Today's BTC price prediction: ${{prediction | number: '.3'}}</h2>
+
+<ngx-charts-area-chart
+    [view]="[700, 400]"
+    [results]="chartData"
+    [xAxis]="true"
+    [yAxis]="true"
+    [autoScale]="true"
+    [legend]="true" >
+</ngx-charts-area-chart>
